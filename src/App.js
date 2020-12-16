@@ -1,8 +1,8 @@
 import './App.css';
 
 
-import  AddNewUser  from "./components/AddNewUser";
-import  UserList  from "./components/UserList";
+import  AddNewUser  from "./container/AddNewUser";
+import  UserList  from "./container/UserList";
 import NavBar from "./components/NavBar";
 import { Switch,Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -15,7 +15,6 @@ function App() {
         <Switch>
           <Route exact path={["/", "/users"]} component={UserList} />
           <Route exact path="/addnewuser" component={AddNewUser} />
-          {/* <Route path="/tutorials/:id" component={Tutorial} /> */}
         </Switch>
       </div>
     </div>
