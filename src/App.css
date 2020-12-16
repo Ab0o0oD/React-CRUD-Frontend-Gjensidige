@@ -1,0 +1,37 @@
+.list {
+    text-align: left;
+    max-width: 750px;
+    margin: auto;
+}
+
+.submit-form {
+    max-width: 300px;
+    margin: auto;
+}
+
+.edit-form {
+    max-width: 300px;
+    margin: auto;
+}
+
+th,
+td {
+    padding: 15px;
+    border-style: double;
+    border-color: rgb(1, 133, 167);
+}
+
+p {
+    color: red;
+    font-weight: bold;
+}
+
+.btn {
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.btn-sm {
+    margin-left: 10px;
+    font-weight: bold;
+}
